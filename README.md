@@ -10,7 +10,7 @@
 
 
 ### Implemented Meta Learning using Reptile in Keras 
-##[Reffered Link](https://keras.io/examples/vision/reptile/)
+## [Reffered Link](https://keras.io/examples/vision/reptile/)
 
 ### This code uses Omniglot dataset 
 #### Omniglot dataset consists of 1,623 characters taken from 50 different alphabets, with 20 examples for each character. The 20 samples for each character were drawn online via Amazon's Mechanical Turk. For the few-shot learning task, k samples (or "shots") are drawn randomly from n randomly-chosen classes. These n numerical values are used to create a new set of temporary labels to use to test the model's ability to learn a new task given few examples. In other words, if you are training on 5 classes, your new class labels will be either 0, 1, 2, 3, or 4. Omniglot is a great dataset for this task since there are many different classes to draw from, with a reasonable number of samples for each class.
